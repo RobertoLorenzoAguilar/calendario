@@ -78,8 +78,16 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 
 Se necesita acceso a internet porque utiliza algunas librerías externas;
 Para ejecutar las pruebas se ocupa instalar python, el gestor de paquetes pip en las variables de entorno global :
-*pip install robotframework.
-*pip install robotframework-seleniumlibrary.
+correr pruenas en \calendar\test\Tests:
+~~~
+ robot test_index.robot
+~~~
+pip install robotframework
+~~~
+pip install robotframework-seleniumlibrary
+~~~
+
+
 
 
 ### TODO
