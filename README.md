@@ -16,7 +16,7 @@ Examen Calendario
 
 <p align="center">
   <a>
-    ![](testing.gif)
+    ![](src/testing.gif)
   </a>
 </p>
   <p align="center">
@@ -78,8 +78,8 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 
 Se necesita acceso a internet porque utiliza algunas librerías externas;
 Para ejecutar las pruebas se ocupa instalar python, el gestor de paquetes pip en las variables de entorno global :
-*pip install robotframework
-*pip install robotframework-seleniumlibrary
+*pip install robotframework.
+*pip install robotframework-seleniumlibrary.
 
 
 ### TODO
