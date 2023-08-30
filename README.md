@@ -81,7 +81,7 @@ Para ejecutar las pruebas se ocupa instalar python, el gestor de paquetes pip en
  pip install robotframework-seleniumlibrary
 ~~~
 
-correr pruenas en \calendar\test\Tests:
+correr pruebas en \calendar\test\Tests:
 robot test_index.robot
 
 
