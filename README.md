@@ -1,5 +1,5 @@
 # Calendario
-Examén Calendario
+Examen Calendario
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
@@ -24,9 +24,9 @@ Examén Calendario
     <li>
       <a href="#El archivo principal>El archivo principal</a>
       <ul>
-        <li><a href="#Prerequisitos">Prerequisitos</a></li>
+        <li><a href="#Prerequisitos">Prerrequisitos</a></li>
         <li><a href="#TODO">TODO</a></li>
-        <li><a href="#Tecnologias">Tecnologias</a></li>
+        <li><a href="#Tecnologias">Tecnologías</a></li>
       </ul>
     </li>
   </ol>
@@ -35,7 +35,7 @@ Examén Calendario
 <!-- Acerca del Proyecto -->
 ## Acerca del Proyecto
 
-El siguiente proyecto es una aplicacion del tipo Web con que cumple con los siguientes requisitos:
+El siguiente proyecto es una aplicación del tipo Web con que cumple con los siguientes requisitos:
 
 * Se requieren dos datos de captura, Fecha de inicio y días a mostrar.
 
@@ -51,21 +51,19 @@ El siguiente proyecto es una aplicacion del tipo Web con que cumple con los sigu
 
 ## El archivo principal
 
-Solo abriendo el index.html con el explorador de su eleccion, en mis pruebas utilice google chrome (Versión 116.0.5845.111 (Build oficial) (64 bits))
+Solo abriendo el index.html con el explorador de su elección, en mis pruebas se utilizó  Google Chrome (Versión 116.0.5845.111 (Build oficial) (64 bits))
 
-
-## Tecnologias
+## Tecnologías
 
 * HTML
 * CSS
-* Javascript
-* Otras Librerias
+* JavaScript
+* Otras Librerías
 
-### Prerequisitos
+### Prerrequisitos
 
-Se necesita acceso a internet por que utiliza algunas librerias externas  
+Se necesita acceso a internet porque utiliza algunas librerías externas  
 
 ### TODO
-- Si para el rango a mostrar se necesitan varios meses cada mes tiene que tener su encabezado con nombre de mes y días de la semana.
-- considerar bisiestos Año bisiesto 2024. Desde: lunes 1 de enero Hasta: martes 31 de diciembre
-
+- Si para el rango a mostrar se necesitan varios meses, cada mes tiene que tener su encabezado con nombre de mes y días de la semana.
+- considerar Año bisiesto 2024. Desde:  lunes 1 de enero Hasta: martes 31 de diciembre
