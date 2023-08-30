@@ -4,7 +4,7 @@ Examén Calendario
 <br />
 <p align="center">
   <a>
-    <img src="images/pantalla_principal.PNG" alt="Logo">
+    <img src="src/images/pantalla_principal.PNG" alt="Logo">
   </a>
 </p>
 
@@ -19,7 +19,7 @@ Examén Calendario
   <summary>Tabla de Contenido</summary>
   <ol>
     <li>
-      <a href="#about-the-project">Acerca del Proyecto</a>
+      <a href="#Acerca del Proyecto">Acerca del Proyecto</a>
     </li>
     <li>
       <a href="#getting-started">Comencemos</a>
