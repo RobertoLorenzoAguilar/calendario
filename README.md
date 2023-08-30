@@ -14,7 +14,7 @@ Examen Calendario
   </a>
 </p>
 
-# My GIF
+# Pruebas Automatizadas
 ![](https://github.com/RobertoLorenzoAguilar/calendario/blob/main/src/testing.gif)
   
   <p align="center">
