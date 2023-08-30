@@ -6,6 +6,13 @@ Examen Calendario
   <a>
     <img src="src/pantalla_principal.PNG" alt="Logo">
   </a>
+  <a>
+    <img src="src/report.PNG" alt="Logo">
+  </a>
+  <a>
+    ![](testing.gif)
+  </a>
+  
 </p>
 
   <p align="center">
@@ -49,6 +56,8 @@ El siguiente proyecto es una aplicación del tipo Web con que cumple con los sig
 
 * Los días fuera de rango de la fecha se muestran en gris (cualquier día antes de la fecha de inicio, cualquier día después de la fecha de término, cualquier día antes del primer día del mes).
 
+* Se integraron 4 pruebas: Abrir y verificar la página de inicio,   Verificar Alertado con Formato Datos Erroneo En FechaInicio, Verificar Alertado con Dias Mayor Mes Erroneo En FechaInicio, Verificar Dia Festivo Cinco Febrero.    
+
 ## El archivo principal
 
 Solo abriendo el index.html con el explorador de su elección, en mis pruebas se utilizó  Google Chrome (Versión 116.0.5845.111 (Build oficial) (64 bits))
@@ -58,11 +67,16 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 * HTML.
 * CSS.
 * JavaScript.
+* RobotFranmework 
 * Otras Librerías (SweetAlert, Boostrap).
 
 ## Prerrequisitos
 
-Se necesita acceso a internet porque utiliza algunas librerías externas  
+Se necesita acceso a internet porque utiliza algunas librerías externas;
+Para ejecutar las pruebas se ocupa instalar python, el gestor de paquetes pip en las variables de entorno global :
+*pip install robotframework
+*pip install robotframework-seleniumlibrary
+
 
 ### TODO
 - Si para el rango a mostrar se necesitan varios meses, cada mes tiene que tener su encabezado con nombre de mes y días de la semana.
