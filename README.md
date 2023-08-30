@@ -83,7 +83,6 @@ correr pruenas en \calendar\test\Tests:
  robot test_index.robot
 ~~~
 pip install robotframework
-~~~
 pip install robotframework-seleniumlibrary
 ~~~
 
