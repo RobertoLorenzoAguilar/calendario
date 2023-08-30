@@ -9,7 +9,7 @@ Examén Calendario
 </p>
 
   <p align="center">
-       let's go!
+       Comencemos
     <br />
   </p>
 
