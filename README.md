@@ -24,7 +24,7 @@ Examen Calendario
     <li>
       <a href="#El archivo principal>El archivo principal</a>
       <ul>
-        <li><a href="#Prerequisitos">Prerrequisitos</a></li>
+        <li><a href="#Prerrequisitos">Prerrequisitos</a></li>
         <li><a href="#TODO">TODO</a></li>
         <li><a href="#Tecnologias">Tecnologías</a></li>
       </ul>
@@ -60,7 +60,7 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 * JavaScript
 * Otras Librerías
 
-### Prerrequisitos
+## Prerrequisitos
 
 Se necesita acceso a internet porque utiliza algunas librerías externas  
 
