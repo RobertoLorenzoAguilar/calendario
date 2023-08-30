@@ -24,7 +24,6 @@ Examen Calendario
     <br />
   </p>
 
-![Texto alternativo]("src/testing.gif")
 
 <!-- TABLE OF CONTENTS -->
 <details open="open">
