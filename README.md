@@ -22,10 +22,10 @@ Examén Calendario
       <a href="#Acerca del Proyecto">Acerca del Proyecto</a>
     </li>
     <li>
-      <a href="#getting-started">Comencemos</a>
+      <a href="#El archivo principal>Comencemos</a>
       <ul>
-        <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
+        <li><a href="#Prerequisitos">Prerequisites</a></li>
+        <li><a href="#TODO">Installation</a></li>
       </ul>
     </li>
   </ol>
@@ -48,12 +48,11 @@ El siguiente proyecto es una aplicacion del tipo Web con que cumple con los sigu
 
 * Los días fuera de rango de la fecha se muestran en gris (cualquier día antes de la fecha de inicio, cualquier día después de la fecha de término, cualquier día antes del primer día del mes).
 
-<!-- GETTING STARTED -->
-## El archivo principañ
+## El archivo principal
 
 Solo abriendo el index.html con el explorador de su eleccion, en mis pruebas utilice google chrome (Versión 116.0.5845.111 (Build oficial) (64 bits)****)
 
-### Prerequisitoss
+### Prerequisitos
 
 Se necesita acceso a internet por que utiliza algunas librerias externas  
 
