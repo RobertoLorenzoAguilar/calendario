@@ -5,16 +5,20 @@ Examen Calendario
 <p align="center">
   <a>
     <img src="src/pantalla_principal.PNG" alt="Logo">
-  </a>
+  </a>  
+</p>
+
+<p align="center">
   <a>
     <img src="src/report.PNG" alt="Logo">
   </a>
+</p>
+
+<p align="center">
   <a>
     ![](testing.gif)
   </a>
-  
 </p>
-
   <p align="center">
        Comencemos
     <br />
