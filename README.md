@@ -14,11 +14,9 @@ Examen Calendario
   </a>
 </p>
 
-<p align="center">
-  <a>    
-    ![Texto alternativo](https://github.com/RobertoLorenzoAguilar/calendario/blob/main/src/testing.gif)
-  </a>
-</p>
+# My GIF
+![](https://github.com/RobertoLorenzoAguilar/calendario/blob/main/src/testing.gif)
+  
   <p align="center">
        Comencemos
     <br />
