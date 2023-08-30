@@ -16,7 +16,7 @@ Examen Calendario
 
 <p align="center">
   <a>    
-    ![Texto alternativo]("src/testing.gif")
+    ![Texto alternativo](https://github.com/RobertoLorenzoAguilar/calendario/blob/main/src/testing.gif")
   </a>
 </p>
   <p align="center">
