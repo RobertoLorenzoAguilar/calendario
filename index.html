@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario Mensual</title>
+    <!-- ========== All CSS files linkup ========= -->
+    <link rel="stylesheet" href="src/styles/main.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+
+<body>
+
+    <div class="calendar">
+        <h1>Examén Calendario</h1>
+        <div class="input-group">
+            <span class="input-group-text" aria-placeholder="Ingresar Fecha Inicio">Fecha Inicio</span>
+            <input class="form-control" aria-label="With textarea" id="txtFechaInicio" value="2023-08-01"
+                placeholder="YYYY-MM-DD"></input>
+            <span class="input-group-text">Días a Mostrar</span>
+            <input class="form-control" id="txtDiasMostrar" aria-label="With textarea" value="13"></input>
+            <button class="btn btn-primary" type="button" onclick="Calcular()">Generar Calendario</button>
+        </div>
+        <div class="month">
+            <h2 id="EncabezadoMes">Agosto 2023</h2>
+        </div>
+
+        <div class="weekdays">
+
+            <table class="table" id="tbl_dias">
+                <thead>
+                    <tr>
+                        <th>
+                            <h6>Lunes</h6>
+                        </th>
+                        <th>
+                            <h6>Martes</h6>
+                        </th>
+                        <th>
+                            <h6>Miércoles</h6>
+                        </th>
+                        <th>
+                            <h6>Jueves</h6>
+                        </th>
+                        <th>
+                            <h6>Viernes</h6>
+                        </th>
+                        <th>
+                            <h6>Sábado</h6>
+                        </th>
+                        <th>
+                            <h6>Domingo</h6>
+                        </th>
+                    </tr>
+                    <!-- end table row-->
+                </thead>
+                <tbody id="days">
+                    <!-- Aquí se generarán los días del mes -->
+                    <!-- end table row -->
+                </tbody>
+            </table>
+            <!-- end table -->
+        </div>
+
+        <!-- ========== All JS files linkup ========= -->
+        <script src="src/js/assets/jquery-3.6.0.min.js"></script>
+        <script src="src/js/assets/bootstrap.bundle.min.js"></script>
+        <script src="src/js/main.js"></script>
+        <script src="src/js/assets/sweetalert2.all.js" type="text/javascript"></script>
+        <script src="src/js/assets/sweetalert2.min.js" type="text/javascript"></script>
+
+</body>
+
+</html>
