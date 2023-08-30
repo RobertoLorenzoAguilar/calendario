@@ -55,10 +55,10 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 
 ## Tecnologías
 
-* HTML
-* CSS
-* JavaScript
-* Otras Librerías
+* HTML.
+* CSS.
+* JavaScript.
+* Otras Librerías (SweetAlert, Boostrap).
 
 ## Prerrequisitos
 
