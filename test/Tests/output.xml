@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.1.1 (Python 3.11.5 on win32)" generated="20230830 15:02:02.237" rpa="false" schemaversion="4">
+<suite id="s1" name="Test Index" source="C:\Users\BrdkBug\Desktop\calendar\test\Tests\test_index.robot">
+<kw name="Open Browser Without Login" type="SETUP">
+<kw name="Set Variable" library="BuiltIn">
+<var>${archivo}</var>
+<arg>index.html</arg>
+<doc>Returns the given values which can then be assigned to a variables.</doc>
+<msg timestamp="20230830 15:02:02.584" level="INFO">${archivo} = index.html</msg>
+<status status="PASS" starttime="20230830 15:02:02.584" endtime="20230830 15:02:02.584"/>
+</kw>
+<kw name="Join Path" library="OperatingSystem">
+<var>${ruta_completa}</var>
+<arg>${BASE_DIR}</arg>
+<arg>${archivo}</arg>
+<doc>Joins the given path part(s) to the given base path.</doc>
+<msg timestamp="20230830 15:02:02.584" level="INFO">${ruta_completa} = C:\Users\BrdkBug\Desktop\calendar\index.html</msg>
+<status status="PASS" starttime="20230830 15:02:02.584" endtime="20230830 15:02:02.584"/>
+</kw>
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${ruta_completa}</arg>
+<arg>Chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20230830 15:02:02.584" level="INFO">Opening browser 'Chrome' to base url 'C:\Users\BrdkBug\Desktop\calendar\index.html'.</msg>
+<status status="PASS" starttime="20230830 15:02:02.584" endtime="20230830 15:02:04.907"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>class=calendar</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.907" endtime="20230830 15:02:04.931"/>
+</kw>
+<status status="PASS" starttime="20230830 15:02:02.584" endtime="20230830 15:02:04.931"/>
+</kw>
+<test id="s1-t1" name="Abrir y verificar la página de inicio" line="27">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${CALENDAR}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.939" endtime="20230830 15:02:04.947"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${EncabezadoMes}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.947" endtime="20230830 15:02:04.955"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${txtFechaInicio}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.955" endtime="20230830 15:02:04.971"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${txtDiasMostrar}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.971" endtime="20230830 15:02:04.987"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${tbl_dias}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.990" endtime="20230830 15:02:04.999"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${days}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:04.999" endtime="20230830 15:02:05.007"/>
+</kw>
+<status status="PASS" starttime="20230830 15:02:04.931" endtime="20230830 15:02:05.015"/>
+</test>
+<test id="s1-t2" name="Verificar Alertado con Formato Datos Erroneo En FechaInicio" line="35">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${CALENDAR}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:05.015" endtime="20230830 15:02:05.023"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txtFechaInicio}</arg>
+<arg>2023-45-56</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.023" level="INFO">Typing text '2023-45-56' into text field 'id=txtFechaInicio'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.023" endtime="20230830 15:02:05.275"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${btnCalendar}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:05.275" endtime="20230830 15:02:05.291"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btnCalendar}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.291" level="INFO">Clicking button 'id=btnCalendar'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.291" endtime="20230830 15:02:05.419"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${alertModal}</arg>
+<arg>1s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230830 15:02:05.419" endtime="20230830 15:02:05.459"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btnOokalertModal}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.459" level="INFO">Clicking button 'xpath=/html/body/div[2]/div/div[10]/button[1]'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.459" endtime="20230830 15:02:05.523"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txtFechaInicio}</arg>
+<arg>2023-02-01</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.523" level="INFO">Typing text '2023-02-01' into text field 'id=txtFechaInicio'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.523" endtime="20230830 15:02:05.675"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${alertModal}</arg>
+<arg>1s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20230830 15:02:05.675" endtime="20230830 15:02:05.922"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btnCalendar}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.930" level="INFO">Clicking button 'id=btnCalendar'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.930" endtime="20230830 15:02:05.986"/>
+</kw>
+<status status="PASS" starttime="20230830 15:02:05.015" endtime="20230830 15:02:05.986"/>
+</test>
+<test id="s1-t3" name="Verificar Alertado con Dias Mayor Mes Erroneo En FechaInicio" line="47">
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${CALENDAR}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:05.986" endtime="20230830 15:02:05.994"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txtDiasMostrar}</arg>
+<arg>40</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:05.994" level="INFO">Typing text '40' into text field 'id=txtDiasMostrar'.</msg>
+<status status="PASS" starttime="20230830 15:02:05.994" endtime="20230830 15:02:06.146"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>${btnCalendar}</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:06.146" endtime="20230830 15:02:06.170"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btnCalendar}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.170" level="INFO">Clicking button 'id=btnCalendar'.</msg>
+<status status="PASS" starttime="20230830 15:02:06.170" endtime="20230830 15:02:06.283"/>
+</kw>
+<kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
+<arg>${alertModal}</arg>
+<arg>1s</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" starttime="20230830 15:02:06.283" endtime="20230830 15:02:06.300"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>${btnOokalertModal}</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.308" level="INFO">Clicking button 'xpath=/html/body/div[2]/div/div[10]/button[1]'.</msg>
+<status status="PASS" starttime="20230830 15:02:06.300" endtime="20230830 15:02:06.364"/>
+</kw>
+<kw name="Input Text" library="SeleniumLibrary">
+<arg>${txtDiasMostrar}</arg>
+<arg>10</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.364" level="INFO">Typing text '10' into text field 'id=txtDiasMostrar'.</msg>
+<status status="PASS" starttime="20230830 15:02:06.364" endtime="20230830 15:02:06.597"/>
+</kw>
+<kw name="Wait Until Element Is Not Visible" library="SeleniumLibrary">
+<arg>${alertModal}</arg>
+<arg>1s</arg>
+<doc>Waits until the element ``locator`` is not visible.</doc>
+<status status="PASS" starttime="20230830 15:02:06.605" endtime="20230830 15:02:06.630"/>
+</kw>
+<kw name="Click Button" library="SeleniumLibrary">
+<arg>id=btnCalendar</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.630" level="INFO">Clicking button 'id=btnCalendar'.</msg>
+<status status="PASS" starttime="20230830 15:02:06.630" endtime="20230830 15:02:06.791"/>
+</kw>
+<status status="PASS" starttime="20230830 15:02:05.986" endtime="20230830 15:02:06.791"/>
+</test>
+<test id="s1-t4" name="Verificar Dia Festivo Cinco Febrero" line="58">
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${textoSeteadoEncabezado}</var>
+<arg>${EncabezadoMes}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.847" level="INFO">${textoSeteadoEncabezado} = Febrero</msg>
+<status status="PASS" starttime="20230830 15:02:06.799" endtime="20230830 15:02:06.847"/>
+</kw>
+<kw name="Should Be Equal As Strings" library="BuiltIn">
+<arg>Febrero</arg>
+<arg>${textoSeteadoEncabezado}</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" starttime="20230830 15:02:06.847" endtime="20230830 15:02:06.847"/>
+</kw>
+<kw name="Wait Until Page Contains Element" library="SeleniumLibrary">
+<arg>class=${festivoNaranja}</arg>
+<arg>timeout=10s</arg>
+<doc>Waits until the element ``locator`` appears on the current page.</doc>
+<status status="PASS" starttime="20230830 15:02:06.847" endtime="20230830 15:02:06.879"/>
+</kw>
+<kw name="Get Text" library="SeleniumLibrary">
+<var>${Dia}</var>
+<arg>class=${festivoNaranja}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<msg timestamp="20230830 15:02:06.943" level="INFO">${Dia} = 5</msg>
+<status status="PASS" starttime="20230830 15:02:06.887" endtime="20230830 15:02:06.943"/>
+</kw>
+<kw name="Should Be Equal" library="BuiltIn">
+<arg>${Dia}</arg>
+<arg>5</arg>
+<doc>Fails if the given objects are unequal.</doc>
+<status status="PASS" starttime="20230830 15:02:06.943" endtime="20230830 15:02:06.943"/>
+</kw>
+<status status="PASS" starttime="20230830 15:02:06.799" endtime="20230830 15:02:06.943"/>
+</test>
+<status status="PASS" starttime="20230830 15:02:02.237" endtime="20230830 15:02:06.951"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Test Index">Test Index</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
