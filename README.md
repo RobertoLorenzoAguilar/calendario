@@ -22,10 +22,11 @@ Examén Calendario
       <a href="#Acerca del Proyecto">Acerca del Proyecto</a>
     </li>
     <li>
-      <a href="#El archivo principal>Comencemos</a>
+      <a href="#El archivo principal>El archivo principal</a>
       <ul>
-        <li><a href="#Prerequisitos">Prerequisites</a></li>
-        <li><a href="#TODO">Installation</a></li>
+        <li><a href="#Prerequisitos">Prerequisitos</a></li>
+        <li><a href="#TODO">TODO</a></li>
+        <li><a href="#Tecnologias">Tecnologias</a></li>
       </ul>
     </li>
   </ol>
@@ -50,7 +51,15 @@ El siguiente proyecto es una aplicacion del tipo Web con que cumple con los sigu
 
 ## El archivo principal
 
-Solo abriendo el index.html con el explorador de su eleccion, en mis pruebas utilice google chrome (Versión 116.0.5845.111 (Build oficial) (64 bits)****)
+Solo abriendo el index.html con el explorador de su eleccion, en mis pruebas utilice google chrome (Versión 116.0.5845.111 (Build oficial) (64 bits))
+
+
+## Tecnologias
+
+* HTML
+* CSS
+* Javascript
+* Otras Librerias
 
 ### Prerequisitos
 
