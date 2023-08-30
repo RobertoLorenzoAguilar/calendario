@@ -15,8 +15,8 @@ Examen Calendario
 </p>
 
 <p align="center">
-  <a>
-    ![](src/testing.gif)
+  <a>    
+    ![Texto alternativo]("src/testing.gif")
   </a>
 </p>
   <p align="center">
