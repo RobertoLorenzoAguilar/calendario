@@ -4,7 +4,7 @@ Examen Calendario
 <br />
 <p align="center">
   <a>
-    <img src="src/images/pantalla_principal.PNG" alt="Logo">
+    <img src="src/pantalla_principal.PNG" alt="Logo">
   </a>
 </p>
 
