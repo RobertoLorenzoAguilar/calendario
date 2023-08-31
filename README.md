@@ -44,7 +44,7 @@ Examen Calendario
 <!-- Acerca del Proyecto -->
 ## Acerca del Proyecto
 
-El siguiente proyecto es una aplicación del tipo Web con que cumple con los siguientes requisitos:
+El siguiente proyecto es una aplicación del tipo Web que cumple con los siguientes requisitos:
 
 * Se requieren dos datos de captura, Fecha de inicio y días a mostrar.
 
