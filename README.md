@@ -69,7 +69,7 @@ Solo abriendo el index.html con el explorador de su elección, en mis pruebas se
 * HTML.
 * CSS.
 * JavaScript.
-* RobotFranmework 
+* RobotFramework 
 * Otras Librerías (SweetAlert, Boostrap).
 
 ## Prerrequisitos
